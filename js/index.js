@@ -4,6 +4,8 @@ hati({
     root: document
 });
 
+// comentário
+
 window.addEventListener('hati:DOMContentLoaded', event => {
     if (event.detail.href.includes("seja-membro.html")) {
         sejaMembro();
