@@ -1,4 +1,29 @@
-#primeira-secao img {
-    max-width: 800px;
-    max-height: 70vh;
+#primeira-secao-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-height: auto;
+    max-width: auto;
+}
+
+.primeira-secao-main-metade-cima {}
+
+.primeira-secao-main-metade-baixo {
+    max-width: 600px;
+    max-height: auto;
+    justify-content: left;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+
+.primeira-secao-main-metade-baixo p {
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffb716;
+}
+
+.primeira-secao-main-metade-baixo p:hover {
+    background-color: #ffb71c;
+    box-shadow: 0 0 1em rgb(80, 68, 2);
+    text-shadow: rgb(63, 59, 59) 0.05rem 0.05rem 0.02rem;
 }

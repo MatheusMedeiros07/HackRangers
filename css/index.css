@@ -1,6 +1,6 @@
-@import url("./footer.css");
 @import url("./home.css");
 @import url("./header.css");
+@import url("./footer.css");
 @import url("./header-dropdown.css");
 @import url("./sobre-nos.css");
 @import url("./style-body-proportion.css");
@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-areas: "header header header" "main main main" "footer footer footer";
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto 70vh auto;
+    grid-template-rows: auto auto auto;
 }
 
 .proportion-header {
@@ -34,7 +34,9 @@ body {
 
 .proportion-main {
     grid-area: main;
-    background: #f0af3e;
+    background-image: url('/HackRangers/img/HOME1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .proportion-footer {
