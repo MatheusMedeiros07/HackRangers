@@ -40,7 +40,6 @@ body {
 .proportion-footer {
     grid-area: footer;
     background: #7A4539;
-    background: #a45e4d;
     grid-area: footer;
 }
 
