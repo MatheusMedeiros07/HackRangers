@@ -5,7 +5,9 @@
     max-width: auto;
 }
 
-.primeira-secao-main-metade-cima {}
+.primeira-secao-main-metade-cima {
+    background-color: rgb(0, 0, 0, 0.3);
+}
 
 .primeira-secao-main-metade-baixo {
     max-width: 600px;
