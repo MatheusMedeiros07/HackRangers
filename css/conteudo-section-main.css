@@ -1,0 +1,124 @@
+#primeira-secao-main {
+    background-image: url('/HackRangers/img/HOME1Copia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-height: auto;
+    max-width: auto;
+}
+
+.primeira-secao-main-metade-cima {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.primeira-secao-main-metade-baixo {
+    justify-content: left;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    max-height: auto;
+    max-width: 600px;
+}
+
+.primeira-secao-main-metade-baixo p {
+    background-color: #ffb716;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.primeira-secao-main-metade-baixo p:hover {
+    background-color: #ffb71c;
+    box-shadow: 0 0 1em rgb(80, 68, 2);
+    text-shadow: rgb(63, 59, 59) 0.01rem 0.01rem 0.02rem;
+}
+
+#segunda-secao-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    margin: 80px 80px 0 0;
+    max-height: 1000px;
+    max-width: auto;
+}
+
+.segunda-secao-main-direita img,
+.segunda-secao-main-esquerda img {
+    border-radius: 100px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    max-height: 900x;
+    max-width: 600px;
+    opacity: 0.5;
+}
+
+.segunda-secao-main-direita,
+.segunda-secao-main-esquerda {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.segunda-secao-main-direita-texto-interno,
+.segunda-secao-main-esquerda-texto-interno {
+    position: absolute;
+    top: 10%;
+    right: 19%;
+    transform: translateY(-50%);
+}
+
+.segunda-secao-main-direita-texto-interno h2,
+.segunda-secao-main-esquerda-texto-interno h2,
+.segunda-secao-main-direita-texto-interno p,
+.segunda-secao-main-esquerda-texto-interno p {
+    max-width: 350px;
+    max-height: auto;
+}
+
+.segunda-secao-main-direita-texto-interno h2:hover,
+.segunda-secao-main-esquerda-texto-interno h2:hover,
+.segunda-secao-main-direita-texto-interno p:hover,
+.segunda-secao-main-esquerda-texto-interno p:hover {
+    text-shadow: rgb(63, 59, 59) 0.03rem 0.03rem 0.05rem;
+}
+
+.segunda-secao-main-direita-texto-interno h2,
+.segunda-secao-main-esquerda-texto-interno h2 {
+    background: #ffb716;
+    border-radius: 15px;
+}
+
+.segunda-secao-main-direita-texto-interno h2:hover,
+.segunda-secao-main-esquerda-texto-interno h2:hover {
+    box-shadow: 0 0 1em rgb(80, 68, 2);
+}
+
+.segunda-secao-main-direita-texto-interno h2 {
+    margin-top: 265px;
+    margin-bottom: 30px;
+}
+
+.segunda-secao-main-esquerda-texto-interno h2 {
+    margin-top: 650px;
+    margin-bottom: 400px;
+}
+
+.segunda-secao-main-direita-texto-interno h4,
+.segunda-secao-main-esquerda-texto-interno h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.segunda-secao-main-direita-texto-interno p,
+.segunda-secao-main-esquerda-texto-interno p {
+    text-align: justify;
+}
+
+#terceira-secao-main {
+    display: flex;
+    flex-direction: column;
+    max-height: 1000px;
+    max-width: auto;
+}

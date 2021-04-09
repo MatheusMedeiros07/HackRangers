@@ -1,7 +1,8 @@
+@import url("./conteudo-section-main.css");
 @import url("./header.css");
 @import url("./footer.css");
-@import url("./sobre-nos.css");
 @import url("./header-dropdown.css");
+@import url("./sobre-nos.css");
 @import url("./style-body-proportion.css");
 * {
     font-family: 'Roboto', sans-serif;
@@ -18,27 +19,32 @@ body {
     display: grid;
     grid-template-areas: "header header header" "main main main" "footer footer footer";
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto 70vh auto;
+    grid-template-rows: auto auto auto;
 }
 
 .proportion-header {
-    grid-area: header;
     background: rgb(251, 253, 247);
+    grid-area: header;
 }
 
 .proportion-aside {
-    grid-area: aside;
     background: rgb(34, 27, 27);
+    grid-area: aside;
 }
 
 .proportion-main {
+    background: white;
     grid-area: main;
-    background: #f0af3e;
 }
 
 .proportion-footer {
+<<<<<<< HEAD
     grid-area: footer;
     background: #7A4539;
+=======
+    background: #a45e4d;
+    grid-area: footer;
+>>>>>>> 4366e055a6d5cdcb87bf22b77b70a240adb67bcc
 }
 
 .vertical {
