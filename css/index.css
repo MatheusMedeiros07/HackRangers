@@ -23,25 +23,23 @@ body {
 }
 
 .proportion-header {
-    grid-area: header;
     background: rgb(251, 253, 247);
+    grid-area: header;
 }
 
 .proportion-aside {
-    grid-area: aside;
     background: rgb(34, 27, 27);
+    grid-area: aside;
 }
 
 .proportion-main {
+    background: white;
     grid-area: main;
-    background-image: url('/HackRangers/img/HOME1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .proportion-footer {
-    grid-area: footer;
     background: #a45e4d;
+    grid-area: footer;
 }
 
 .vertical {

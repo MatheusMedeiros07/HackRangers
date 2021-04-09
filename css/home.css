@@ -1,4 +1,7 @@
 #primeira-secao-main {
+    background-image: url('/HackRangers/img/HOME1Copia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-rows: 1fr 1fr;
     max-height: auto;
@@ -10,22 +13,49 @@
 }
 
 .primeira-secao-main-metade-baixo {
-    max-width: 600px;
-    max-height: auto;
     justify-content: left;
     margin-bottom: 200px;
     margin-left: 100px;
+    max-height: auto;
+    max-width: 600px;
 }
 
 .primeira-secao-main-metade-baixo p {
-    padding: 40px;
-    border-radius: 20px;
-    text-align: center;
     background-color: #ffb716;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .primeira-secao-main-metade-baixo p:hover {
     background-color: #ffb71c;
     box-shadow: 0 0 1em rgb(80, 68, 2);
-    text-shadow: rgb(63, 59, 59) 0.05rem 0.05rem 0.02rem;
+    text-shadow: rgb(63, 59, 59) 0.01rem 0.01rem 0.02rem;
+}
+
+#segunda-secao-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    margin: 80px 80px 0 0;
+    max-height: 1000px;
+    max-width: auto;
+}
+
+.segunda-secao-main-direita img,
+.segunda-secao-main-esquerda img {
+    border-radius: 100px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    max-height: 900x;
+    max-width: 600px;
+    opacity: 0.5;
+}
+
+#terceira-secao-main {
+    display: flex;
+    flex-direction: column;
+    max-height: 1000px;
+    max-width: auto;
 }
