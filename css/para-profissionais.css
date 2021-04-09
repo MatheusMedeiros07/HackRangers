@@ -1,8 +1,11 @@
-#para-profissionais {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-areas: 'img img' 'titulo2 titulo2' 'plano1 plano2';
-    grid-template-rows: auto auto 1fr;
-    justify-content: center;
-    padding: 1rem;
+
+.bg-profissionais {
+    /* background-image: url("../img/profissionais.jpeg"); */
+
+    
+    max-width: 300px;
+    max-height: auto;
+    background-size: cover;
+   
+    
 }
