@@ -51,6 +51,43 @@
     max-height: 900x;
     max-width: 600px;
     opacity: 0.5;
+    text-align: center;
+    position: relative;
+}
+
+.segunda-secao-main-direita,
+.segunda-secao-main-esquerda {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.segunda-secao-main-direita-texto-interno,
+.segunda-secao-main-esquerda-texto-interno {
+    position: absolute;
+    top: 10%;
+    right: 28%;
+    transform: translateY(-50%);
+}
+
+.segunda-secao-main-direita-texto-interno h2,
+.segunda-secao-main-esquerda-texto-interno h2,
+.segunda-secao-main-direita-texto-interno p,
+.segunda-secao-main-esquerda-texto-interno p {
+    max-width: 200px;
+    max-height: auto;
+}
+
+.segunda-secao-main-direita-texto-interno h2,
+.segunda-secao-main-esquerda-texto-interno h2 {
+    background: #f4aa28;
+    margin-bottom: 50px;
+}
+
+.segunda-secao-main-esquerda p:nth-child(1) {
+    margin-top: 500px;
+    bottom: 10%;
 }
 
 #terceira-secao-main {
