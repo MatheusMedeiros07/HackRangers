@@ -23,15 +23,12 @@
 .primeira-secao-main-metade-baixo p {
     background-color: #ffb716;
     border-radius: 20px;
-    padding: 40px;
+    color: white;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 18px;
+    padding: 25px;
     margin-top: 40px;
     text-align: center;
-}
-
-.primeira-secao-main-metade-baixo p:hover {
-    background-color: #ffb71c;
-    box-shadow: 0 0 1em rgb(80, 68, 2);
-    text-shadow: rgb(63, 59, 59) 0.01rem 0.01rem 0.02rem;
 }
 
 #segunda-secao-main {

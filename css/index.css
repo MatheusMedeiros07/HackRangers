@@ -37,6 +37,11 @@ body {
     grid-area: main;
 }
 
+.proportion-main {
+    display: grid;
+    grid-template-rows: repeat(1fr, 4);
+}
+
 .proportion-footer {
     grid-area: footer;
     background: #7A4539;
