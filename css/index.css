@@ -38,13 +38,10 @@ body {
 }
 
 .proportion-footer {
-<<<<<<< HEAD
     grid-area: footer;
     background: #7A4539;
-=======
     background: #a45e4d;
     grid-area: footer;
->>>>>>> 4366e055a6d5cdcb87bf22b77b70a240adb67bcc
 }
 
 .vertical {
