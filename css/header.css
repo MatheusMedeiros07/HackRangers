@@ -1,15 +1,15 @@
-body > header {
+body>header {
     background-color: white;
 }
-
 
 .cta {
     position: relative;
     margin: auto;
     padding: 15px 15px 10px 15px;
     transition: all 0.2s ease;
-  }
-  .cta:before {
+}
+
+.cta:before {
     content: "";
     position: absolute;
     top: 0;
@@ -20,9 +20,9 @@ body > header {
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
-  }
+}
 
-  .cta span {
+.cta span {
     position: relative;
     font-size: 16px;
     line-height: 18px;
@@ -30,9 +30,9 @@ body > header {
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     vertical-align: middle;
-  }
+}
 
-  .cta svg {
+.cta svg {
     position: relative;
     top: 0;
     margin-left: 10px;
@@ -43,23 +43,22 @@ body > header {
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
-  }
+}
 
-  .cta:hover:before {
+.cta:hover:before {
     width: 100%;
     background: #ffb716;
-  }
+}
 
-  .cta:hover svg {
+.cta:hover svg {
     transform: translateX(0);
-  }
+}
 
-  .cta:active {
+.cta:active {
     transform: scale(0.96);
-  }
+}
 
-
-.icone{ 
+.icone {
     margin-right: 100px;
 }
 
@@ -70,23 +69,22 @@ body > header {
     height: auto;
 }
 
-body > header > nav {
+body>header>nav {
     align-items: center;
     display: flex;
     justify-content: space-around;
     padding: 1rem;
 }
 
-body > header > nav{
-  grid-gap: 5px 8px;
+body>header>nav {
+    grid-gap: 5px 8px;
 }
 
 @media (max-width: 450px) {
-    body > header > nav {
+    body>header>nav {
         flex-direction: column;
     }
-
-    body > header > nav a:last-of-type {
+    body>header>nav a:last-of-type {
         margin-top: 1rem;
     }
 }

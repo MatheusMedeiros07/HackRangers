@@ -108,15 +108,15 @@ button:before {
 }
 
 [id="sign-in"]:checked~button:before {
-    content: 'Sign In';
+    content: 'Buscar';
 }
 
 [id="sign-up"]:checked~button:before {
-    content: 'Sign Up';
+    content: 'Buscar';
 }
 
 [id="reset"]:checked~button:before {
-    content: 'Reset password';
+    content: 'Marcar Consulta';
 }
 
 label {
@@ -125,7 +125,8 @@ label {
     text-align: center;
     font-weight: 700;
     cursor: pointer;
-    color: #a45e4d;
+    color: #000000;
+    font-weight: lighter;
     transition: 300ms ease;
     width: calc(40% / 3 - 4px);
 }
@@ -160,11 +161,6 @@ label:after {
     text-align: center;
 }
 
-.flex-wrap>fieldset {
-    background: #ffd181;
-    display: grid;
-}
-
 form {
     align-items: center;
     display: flex;
@@ -172,23 +168,60 @@ form {
 
 label {
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 body .flex-wrap {
+    display: grid;
+    grid-template-rows: 1fr 1f;
     font-size: 16px;
+    margin-top: 20px;
+}
+
+.primeira-secao-busca-a {
+    background: #ffd182;
+    border-start-start-radius: 30px;
+    border-start-end-radius: 30px;
+    height: 20px;
+    margin-top: 115px;
+    width: 350px;
 }
 
 .primeira-secao-busca-a label {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
+    flex-grow: 1;
+    padding: 15 px;
+    text-align: center;
+}
+
+.primeira-secao-busca-b {
+    background: #ffd182;
 }
 
 .primeira-secao-busca-b label {
+    background: #F4AA28;
+    border: solid 1px rgb(155, 136, 136);
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    flex-grow: 1;
+    padding: 15px;
+    text-align: center;
+}
+
+.primeira-secao-busca-c {
+    background: #ffd182;
+}
+
+.primeira-secao-busca-b label:nth-child(1) {
+    border-radius: 0px 25px 25px 0px;
+}
+
+.primeira-secao-busca-b label:nth-child(2) {
+    border-radius: 25px 0 0 25px;
+}
+
+.primeira-secao-busca-b {
+    width: 350px;
 }
 
 .primeira-secao-busca-c {
@@ -210,8 +243,7 @@ body .flex-wrap {
     color: #F4AA28;
     font-weight: bolder;
     font-size: 100px;
-    position: relative;
-    bottom: 5%;
-    left: 50%;
-    flex-grow: 1;
+    margin-left: 750px;
+    margin-top: 55px;
+    flex-grow: 1
 }
