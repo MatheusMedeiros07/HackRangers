@@ -38,7 +38,7 @@
 #segunda-secao-main {
     background: white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     height: 50vh;
     max-width: auto;
 }
@@ -100,7 +100,7 @@ button {
     width: 250px;
     height: 40px;
     border-radius: 7px;
-    background-color: #FFCA6C;
+    background-color: #F4AA28;
     font-size: 0;
 }
 
@@ -162,7 +162,7 @@ label:after {
 }
 
 .flex-wrap>fieldset {
-    background: #FFCA6C;
+    background: #ffd181;
     display: grid;
 }
 
@@ -195,4 +195,16 @@ body .flex-wrap {
 .primeira-secao-busca-c {
     display: flex;
     flex-wrap: wrap;
+}
+
+.segunda-secao-main-metade-cima {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 100px;
+}
+
+.segunda-secao-main-metade-baixo h1 {
+    color: #F4AA28;
+    font-weight: bolder;
+    font-size: 100px;
 }
