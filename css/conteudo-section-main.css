@@ -20,6 +20,15 @@
     max-width: 600px;
 }
 
+.primeira-secao-main-metade-baixo2 h1 {
+    color: white;
+    flex-grow: 1;
+    font-weight: bolder;
+    font-size: 100px;
+    height: 20px;
+    margin-right: 750px;
+}
+
 .primeira-secao-main-metade-baixo p {
     background-color: #ffb716;
     border-radius: 20px;
@@ -45,21 +54,14 @@
 #terceira-secao-main {
     background: #F4AA28;
     display: grid;
-    height: 80vh;
-    max-width: auto;
+    height: 50vh;
+    width: auto;
 }
 
 #quarta-secao-main {
     background: #cacaca;
     display: grid;
     height: 50vh;
-    max-width: auto;
-}
-
-#quinta-secao-main {
-    background: #ceba99;
-    display: grid;
-    height: 100vh;
     max-width: auto;
 }
 
@@ -239,7 +241,7 @@ body .flex-wrap {
 .segunda-secao-main-metade-cima {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 20px;
+    font-size: 22px;
     margin: 80px;
     margin-left: 5%;
     margin-right: 10%;
@@ -253,4 +255,15 @@ body .flex-wrap {
     margin-left: 750px;
     margin-top: 55px;
     flex-grow: 1
+}
+
+.terceira-secao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    grid-template-columns: repeat(4, 350px);
+    margin: 10px 3px -20px 3px;
 }
