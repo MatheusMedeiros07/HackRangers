@@ -1,13 +1,11 @@
 #primeira-secao-main {
+    background-image: url('../img/Home1Copia.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
     grid-template-rows: 1fr 1fr;
     max-height: auto;
     max-width: auto;
-}
-#bg-primeira-secao {
-    background-image: url('../img/Home1Copia.jpeg');
 }
 
 .primeira-secao-main-metade-cima {
