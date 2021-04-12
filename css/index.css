@@ -1,9 +1,11 @@
 @import url("./conteudo-section-main.css");
+@import url("./convenios.css");
 @import url("./header.css");
 @import url("./footer.css");
 @import url("./header-dropdown.css");
 @import url("./sobre-nos.css");
 @import url("./style-body-proportion.css");
+@import url("./para-profissionais.css");
 * {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
@@ -33,7 +35,8 @@ body {
 }
 
 .proportion-main {
-    background: rgb(240, 134, 134);
+    background: #F4AA28;
+    text-align: center;
     grid-area: main;
 }
 

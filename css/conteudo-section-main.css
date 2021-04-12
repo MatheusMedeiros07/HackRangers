@@ -175,15 +175,17 @@ body .flex-wrap {
     grid-template-rows: 1fr 1f;
     font-size: 16px;
     margin-top: 20px;
+    margin-right: 240px;
 }
 
 .primeira-secao-busca-a {
     background: #ffd182;
     border-start-start-radius: 30px;
     border-start-end-radius: 30px;
+    border: 0 none;
     height: 20px;
-    margin-top: 115px;
-    width: 350px;
+    margin-top: 141px;
+    width: 356px;
 }
 
 .primeira-secao-busca-a label {
@@ -196,20 +198,25 @@ body .flex-wrap {
 
 .primeira-secao-busca-b {
     background: #ffd182;
+    border: 0 none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .primeira-secao-busca-b label {
     background: #F4AA28;
-    border: solid 1px rgb(155, 136, 136);
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     padding: 15px;
+    width: 160px;
     text-align: center;
 }
 
 .primeira-secao-busca-c {
     background: #ffd182;
+    border: 0 none;
+    border-radius: 0px 25px 25px 25px;
 }
 
 .primeira-secao-busca-b label:nth-child(1) {
