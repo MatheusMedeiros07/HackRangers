@@ -33,7 +33,7 @@ body {
 }
 
 .proportion-main {
-    background: white;
+    background: rgb(240, 134, 134);
     grid-area: main;
 }
 

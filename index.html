@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
-    
+
     <title>AFROSAÚDE</title>
     <script type="module" src="js/index.js"></script>
 </head>
@@ -20,7 +20,7 @@
     <header class="proportion-header">
         <nav>
             <a href="./index.html" title="AFROSAÚDE">
-                <img src="img/logo.png" alt="AfroSaúde" srcset="" width="170" height="75">
+                <img src="img/logo.png" alt="AfroSaude" srcset="" width="170" height="75">
             </a>
 
 
@@ -68,16 +68,36 @@
         <section id="primeira-secao-main">
             <nav class="primeira-secao-main-metade-cima">
 
-                <form>
-                    <fieldset class="grupo">
-                        <div>
-                            <label for="Nome"> O que gostaria de Agendar</label>
-                            <input type="text" id="nome" name="nome" required placeholder="Especialidade, Procedimentos, Doenças">
-                        </div>
+                <div class="flex-wrap">
+
+                    <fieldset class="primeira-secao-busca-a">
+                        <form action novalidate>
+                            <label for="sign-in">Agende Sua Consulta</label>
+                        </form>
+                    </fieldset>
+                    <br>
+
+                    <fieldset class="primeira-secao-busca-b">
+                        <form action novalidate>
+                            <label for="sign-up">Presencial</label>
+                            <label for="reset">Teleconsulta</label>
+                        </form>
                     </fieldset>
 
-                </form>
+                    <fieldset class="primeira-secao-busca-c">
+                        <form action novalidate>
+                            <input type="radio" name="rg" id="sign-in" checked/>
+                            <input type="radio" name="rg" id="sign-up" />
+                            <input type="radio" name="rg" id="reset" />
 
+                            <input class="sign-up sign-in reset" type="text" placeholder="Email" />
+                            <input class="sign-up sign-in" type="text" placeholder="Password" />
+                            <input class="sign-up" type="text" placeholder="Repeat Password" />
+                            <button>Submit</button>
+                        </form>
+                    </fieldset>
+
+                </div>
 
             </nav>
 
