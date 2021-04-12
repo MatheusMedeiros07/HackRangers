@@ -38,20 +38,21 @@
     display: grid;
     grid-template-rows: 2fr 1fr;
     height: 50vh;
+    justify-content: center;
     max-width: auto;
 }
 
 #terceira-secao-main {
-    background: #a45e4d;
+    background: #F4AA28;
     display: grid;
     height: 80vh;
     max-width: auto;
 }
 
 #quarta-secao-main {
-    background: #F4AA28;
+    background: #cacaca;
     display: grid;
-    height: 100vh;
+    height: 50vh;
     max-width: auto;
 }
 
@@ -198,11 +199,19 @@ body .flex-wrap {
 .segunda-secao-main-metade-cima {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 100px;
+    font-size: 20px;
+    margin: 80px;
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: center;
 }
 
 .segunda-secao-main-metade-baixo h1 {
     color: #F4AA28;
     font-weight: bolder;
     font-size: 100px;
+    position: relative;
+    bottom: 5%;
+    left: 50%;
+    flex-grow: 1;
 }
